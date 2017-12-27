@@ -1,0 +1,28 @@
+#import "BunnyTestClassA.h"
+/**
+ * @brief brief description for an atom class
+ * @remark  remark for atom class
+ * @discussion discussion for atom class
+ */
+@interface BunnyTestAtom : NSObject
+	/**
+ 	* @brief The App Service Identifier name.
+ 	* @remark  remark for atom class
+    * @discussion discussionsssssss
+ 	*/
+	@property(nonatomic, readonly, copy, nonnull) 
+			NSString* property1;
+
+	/**
+ 	* @brief Create an instance.
+ 	* @remark  remark for atom class
+    * @discussion discussionsssssss
+ 	* @param request parameter request for this method
+ 	* @param appServiceName parameter appServiceName for this method
+ 	* @param appIdentifier parameter appIdentifier for this method
+ 	* @return return instancetype
+ 	*/
+	- (nullable instancetype) method1:(nonnull ClassA*)request
+                                    appServiceName:(nonnull NSString*)appServiceName
+                                     appIdentifier:(nonnull NSString*)appIdentifier;
+@end
