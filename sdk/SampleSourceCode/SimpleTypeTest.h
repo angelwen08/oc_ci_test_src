@@ -52,25 +52,6 @@ enum class ConnectionState
   };
 
 /**
-  * @brief structtt brief description
-  */
-struct StructTest
-{
-  //! brief description for xx
-  int entityX;
-  //! brief description for yy
-  int entityY;
-  //! brief description for ll
-  int entityLength;
-  //! brief description for ww
-  int entityWidth;
-  //! brief description for tt
-  int entityType;
-  //! brief description for dd
-  bool isDead;
-};
-
-/**
   * @brief simple type define brief description
   * @remark  simple type define remark
   * @discussion simple type define discussion
