@@ -1,7 +1,7 @@
 /**
   * @brief structtt brief description
   */
-  struct BunnyTestStruct
+  struct StructTest
   {
     //! brief description for xx
     int entityX;

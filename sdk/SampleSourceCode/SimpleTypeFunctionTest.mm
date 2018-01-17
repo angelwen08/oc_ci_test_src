@@ -5,9 +5,9 @@
 #import <Foundation/Foundation.h>
 #include "LogMacros.h"
 #include "SystemHeaderIncludes.h"
-#include "BunnyTestSimpleType.h"
+#include "SimpleTypeTest.h"
 
-NSDictionary* BunnyTestSimpleTypeFunction(const ValueSet& valueSet)
+NSDictionary* SimpleTypeFunctionTest(const ValueSet& valueSet)
 {
     CDP_SDK_TRACE_ENTRY_EXIT;
 

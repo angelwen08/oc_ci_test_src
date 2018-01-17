@@ -1,6 +1,6 @@
-#import "BunnyTestClassA.h"
+#import "ClassATest.h"
 
-@implementation BunnyTestClassA
+@implementation ClassATest
 - (nullable instancetype) method1:(NSString*)request
                                     appServiceName:(NSString*)appServiceName
 {

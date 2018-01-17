@@ -3,4 +3,4 @@
   * @remark  simple type typedef remark
   * @discussion simple type typedef discussion
   */
-  typedef void (^BunnyTestMCDAuthCodeCallback)(NSError* _Nullable error, NSString* _Nullable accessCode);
+  typedef void (^CallbackTest)(NSError* _Nullable error, NSString* _Nullable accessCode);

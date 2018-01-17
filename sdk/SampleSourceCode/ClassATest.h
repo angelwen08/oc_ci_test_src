@@ -3,7 +3,7 @@
  * @remark  remark for atom class
  * @discussion discussion for atom class
  */
-@interface BunnyTestClassA : NSObject
+@interface ClassATest : NSObject
 	/**
  	* @brief The App Service Identifier name.
  	* @remark  remark for atom class

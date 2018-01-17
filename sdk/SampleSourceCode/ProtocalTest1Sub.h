@@ -1,5 +1,5 @@
-#import "BunnyTestP1.h"
-@protocol BunnyTestP1Sub <P1>
+#import "ProtocalTest1.h"
+@protocol ProtocalTest1Sub <P1>
 /**
  * @brief The App Service Identifier name.
  */

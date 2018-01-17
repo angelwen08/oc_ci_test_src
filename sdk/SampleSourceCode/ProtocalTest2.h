@@ -1,14 +1,8 @@
-/**
- * @brief brief for p111
- * @remark  remark for p111
- * @remark  remark for p111
- * @discussion p111ssssss
- */
-@protocol BunnyTestP1 <NSObject>
+@protocol ProtocalTest2 <NSObject>
 /**
  * @brief The App Service Identifier name.
  */
-@property(nonatomic, readonly, copy, nonnull) NSString* p1Property;
+@property(nonatomic, readonly, copy, nonnull) NSString* p2Property;
 
 /**
 * @brief Create an instance.
@@ -20,9 +14,8 @@
 * @param delegate parameter delegate for this method
 * @return return instancetype
 */
-- (nullable instancetype)p1Method:(nonnull MCDRemoteSystemConnectionRequest*)request
+- (nullable instancetype)p2Method:(nonnull MCDRemoteSystemConnectionRequest*)request
                                     appServiceName:(nonnull NSString*)appServiceName
                                      appIdentifier:(nonnull NSString*)appIdentifier
                                           delegate:(nonnull id<MCDAppServiceClientConnectionManagerDelegate>)delegate;
-
 @end

@@ -1,19 +1,19 @@
-#import "BunnyTestAtomSub.h"
-#import "BunnyTestP1Sub.h"
-#import "BunnyTestP2.h"
+#import "AtomClassTestSub.h"
+#import "ProtocalTest1Sub.h"
+#import "ProtocalTest2.h"
 /**
  * @brief brief for an atom class
  * @remark  remark for atom class
  * @remark  remark for atom class 2222
  * @discussion discussionsssssss
  */
-@interface BunnyTestAtomSub : BunnyTestAtom <BunnyTestP1Sub, BunnyTestP2>
+@interface AtomClassTestSub : AtomClassTest <ProtocalTest1Sub, ProtocalTest2>
 	/**
  	* @brief The MCDRemoteSystemConnectionRequest.
  	* @remark  remark for atom class
     * @discussion discussionsssssss
  	*/
-	@property(atomic, readwrite, strong, nonnull) BunnyTestClassA* connectionRequest;
+	@property(atomic, readwrite, strong, nonnull) ClassATest* connectionRequest;
 
 	/**
  	* @brief The App Service name.
@@ -80,10 +80,10 @@
  	* @param delegate parameter delegate for this method
  	* @return return instancetype
  	*/
-	+ (nullable instancetype) atomsubMethod1:(nonnull BunnyTestClassA*)request
+	+ (nullable instancetype) atomsubMethod1:(nonnull ClassATest*)request
                                     appServiceName:(nonnull NSString*)appServiceName
                                      appIdentifier:(nonnull NSString*)appIdentifier
-                                          delegate:(nonnull id<BunnyTestP1Sub>)delegate;
+                                          delegate:(nonnull id<ProtocalTest1Sub>)delegate;
 
     - (NSString*) addRequestReceivedListener:(nonnull void (^)( MCDAppServiceConnection* _Nonnull, MCDAppServiceRequestReceivedEventArgs* _Nonnull))listener;
 @end

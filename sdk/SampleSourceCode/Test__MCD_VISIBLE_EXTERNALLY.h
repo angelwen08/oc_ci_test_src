@@ -3,4 +3,4 @@
   * @remark  simple type define remark
   * @discussion simple type define discussion
   */
-#define BunnyTest__MCD_VISIBLE_EXTERNALLY __attribute__((visibility("default")))
+#define Test__MCD_VISIBLE_EXTERNALLY __attribute__((visibility("default")))
