@@ -11,6 +11,9 @@ __MCD_VISIBLE_EXTERNALLY
 
 @property(nonatomic, readonly, copy, nullable) NSDictionary* message;
 
+/**
+ * @see MCDRemoteSystemConnectionRequest
+ */
 @property(nonatomic, readonly) MCDAppServiceResponseStatus status;
 
 - (nullable instancetype)initWithDictionary:(nonnull NSDictionary*)dictionary status:(MCDAppServiceResponseStatus)status;

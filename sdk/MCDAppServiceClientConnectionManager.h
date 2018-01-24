@@ -18,6 +18,7 @@ __MCD_VISIBLE_EXTERNALLY
 
 /**
  * @brief The MCDRemoteSystemConnectionRequest.
+ * @see MCDRemoteSystemConnectionRequest
  */
 @property(nonatomic, readonly, strong, nonnull) MCDRemoteSystemConnectionRequest* connectionRequest;
 

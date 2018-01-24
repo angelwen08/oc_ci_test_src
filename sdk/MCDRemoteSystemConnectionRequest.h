@@ -23,6 +23,7 @@ __MCD_VISIBLE_EXTERNALLY
 
 /**
  * @brief The Remote System the class was initialized with.
+ * @see MCDRemoteSystem
  */
 @property(nonatomic, readonly, strong, nonnull) MCDRemoteSystem* remoteSystem;
 
