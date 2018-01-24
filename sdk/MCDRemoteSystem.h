@@ -38,6 +38,7 @@ __MCD_VISIBLE_EXTERNALLY
 
 /**
  * @brief The kind of this Remote System.
+ * @see MCDRemoteSystemKind
  */
 @property(nonatomic, readonly) MCDRemoteSystemKind kind;
 
@@ -48,6 +49,7 @@ __MCD_VISIBLE_EXTERNALLY
 
 /**
  * @brief The availablity of this Remote System.
+ * @see MCDRemoteSystemStatus
  */
 @property(nonatomic, readonly) MCDRemoteSystemStatus status;
 

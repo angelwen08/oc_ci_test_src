@@ -11,7 +11,8 @@
 	/**
  	* @brief The MCDRemoteSystemConnectionRequest.
  	* @remark  remark for atom class
-    * @discussion discussionsssssss
+	* @discussion discussionsssssss
+	* @see ClassATest
  	*/
 	@property(atomic, readwrite, strong, nonnull) ClassATest* connectionRequest;
 
